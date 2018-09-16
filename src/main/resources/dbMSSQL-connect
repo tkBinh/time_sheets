@@ -1,0 +1,14 @@
+	#Database Configuration
+
+db.driver=net.sourceforge.jtds.jdbc.Driver
+db.url=jdbc:jtds:sqlserver://localhost:1433/db_time_sheets;instance=SQLEXPRESS
+db.username=sa
+db.password=Binh2602sql
+ 
+	#Hibernate Configuration
+
+hibernate.dialect=org.hibernate.dialect.SQLServerDialect
+hibernate.hbm2ddl.auto=update
+hibernate.ejb.naming_strategy=org.hibernate.cfg.ImprovedNamingStrategy
+hibernate.show_sql=true
+hibernate.format_sql=true
